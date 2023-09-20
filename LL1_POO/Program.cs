@@ -249,7 +249,7 @@ class Program
                 int rectangleLength = Convert.ToInt32(Console.ReadLine());
                 rectangle.Length = rectangleLength;
                 rectangle.Width = rectangleWidth;
-                Console.WriteLine("Aria dreptunghiului este: " + rectangle.CalculateArea());
+                Console.WriteLine("Aria dreptunghiului este  : " + rectangle.CalculateArea());
                 break;
             default:
                 Console.WriteLine("Alegere gresita!");
@@ -272,3 +272,4 @@ class Program
         Console.ReadKey();
     }
 }
+
